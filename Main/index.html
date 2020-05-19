@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Processing</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tugas Text Processing</h1>
+    <p id="demo"></p>
+
+    <h3>Documents :</h3>
+    <ul>
+        <li>D1: <span id="d1"></span></li>
+        <li>D2: <span id="d2"></span></li>
+        <li>D3: <span id="d3"></span></li>
+        <li>Q: <span id="q"></span></li>
+    </ul>
+
+    <h3>Tokenization + Lower case :</h3>
+    <ul>
+        <li>D1: <span id="tl_d1"></span></li>
+        <li>D2: <span id="tl_d2"></span></li>
+        <li>D3: <span id="tl_d3"></span></li>
+        <li>Q: <span id="tl_q"></span></li>
+    </ul>
+
+    <h3>Stemming :</h3>
+    <ul>
+        <li>D1: <span id="stem_d1"></span></li>
+        <li>D2: <span id="stem_d2"></span></li>
+        <li>D3: <span id="stem_d3"></span></li>
+        <li>Q: <span id="stem_q"></span></li>
+    </ul>
+
+    <h3>Stopword Removal :</h3>
+    <ul>
+        <li>D1: <span id="sw_d1"></span></li>
+        <li>D2: <span id="sw_d2"></span></li>
+        <li>D3: <span id="sw_d3"></span></li>
+        <li>Q: <span id="sw_q"></span></li>
+    </ul>
+
+    <div>
+        <h3>Table TF-IDF/ Weight of Corpus</h3>
+        <table id="tableTfidf">
+            <tr>
+                <td> Term </td>
+                <td> D1 </td>
+                <td> D2 </td>
+                <td> D3 </td>
+                <td> Q </td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>Cosine Similarity + Rank :</h3>
+    <ul>
+        <li>cos(Q,D1): <span id="cos_d1"></span></li>
+        <li>cos(Q,D2): <span id="cos_d2"></span></li>
+        <li>cos(Q,D3): <span id="cos_d3"></span></li>
+    </ul>
+
+    <h3>Naive Bayes Classifier :</h3>
+    <ul>
+        <li>D1: <span id="bay_d1"></span></li>
+        <li>D2: <span id="bay_d2"></span></li>
+        <li>D3: <span id="bay_d3"></span></li>
+        <li>Clasify : <span id="clasify"></span></li>
+    </ul>
+
+    <h3>Precission And Recall :</h3>
+    <ul>
+        <li>Relevant : <span id="relevant"></span></li>
+        <li>Retrieved : <span id="retrieved"></span></li>
+        <li>Result : <span id="result"></span></li>
+    </ul>
+    <!-- <script src="app.js"></script> -->
+    <script src="../dist/bundle.js"></script>
+</body>
+
+</html>

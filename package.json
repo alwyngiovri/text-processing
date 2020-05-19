@@ -1,0 +1,24 @@
+{
+  "name": "teks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "natural": "^2.1.5",
+    "precision-recall": "^1.0.2",
+    "request": "^2.79.0",
+    "sastrawijs": "^1.0.3",
+    "stopword": "^1.0.1",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "alwyn",
+  "license": "ISC",
+  "description": ""
+}
