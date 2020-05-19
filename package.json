@@ -5,7 +5,6 @@
   "dependencies": {
     "natural": "^2.1.5",
     "precision-recall": "^1.0.2",
-    "request": "^2.79.0",
     "sastrawijs": "^1.0.3",
     "stopword": "^1.0.1",
     "webpack": "^4.43.0"
